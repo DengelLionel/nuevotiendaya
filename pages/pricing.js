@@ -1,6 +1,6 @@
 import Head from "next/head";
 import PageBanner from "../components/Common/PageBanner";
-import FaqWithVideoModal from "../components/Faq/FaqWithVideoModal";
+import FaqWithVideoModal from "../components/faq/FaqWithVideoModal";
 import PricingContent from "../components/Pricing/PricingContent";
 export default function Pricing() {
 	return (

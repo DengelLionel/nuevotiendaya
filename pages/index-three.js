@@ -1,5 +1,5 @@
 import Head from "next/head";
-import FaqContent from "../components/Faq/FaqContent";
+import FaqContent from "../components/faq/FaqContent";
 import HeroThree from "../components/Hero/HeroThree";
 import ContentBlockOne from "../components/HomeThree/ContentBlockOne";
 import ContentBlockThree from "../components/HomeThree/ContentBlockThree";

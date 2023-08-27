@@ -5,7 +5,7 @@ import ContentBlockOne from "../components/DefaultHome/ContentBlockOne";
 import ContentBlockTwo from "../components/DefaultHome/ContentBlockTwo";
 import Hero from "../components/Hero/Hero";
 import PopularCryptoCurrencies from "../components/DefaultHome/PopularCryptoCurrencies";
-import FaqWithVideoModal from "../components/Faq/FaqWithVideoModal";
+import FaqWithVideoModal from "../components/faq/FaqWithVideoModal";
 import FeaturesOne from "../components/Features/FeaturesOne";
 import Testimonial from "../components/Testimonial/Testimonial";
 

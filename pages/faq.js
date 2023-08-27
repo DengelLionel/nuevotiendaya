@@ -1,7 +1,7 @@
 import Head from "next/head";
 import CallToAction from "../components/Common/CallToAction";
 import PageBanner from "../components/Common/PageBanner";
-import FaqContent from "./../components/Faq/FaqContent";
+import FaqContent from "../components/faq/FaqContent";
 
 export default function faq() {
 	return (
