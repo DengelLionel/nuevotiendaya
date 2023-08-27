@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card, Col, Row, Form } from "react-bootstrap";
-import Footer from "../layouts/Footer";
-import HeaderMobile from "../layouts/HeaderMobile";
+import Footer from "../../components/componentes_administrar/layout/Footer";
+import HeaderMobile from "../../components/componentes_administrar/layouts/HeaderMobile";
 
-import img1 from "../assets/img/img1.jpg";
+/* import img1 from "../assets/img/img1.jpg";
 import img2 from "../assets/img/img2.jpg";
 import img3 from "../assets/img/img3.jpg";
 import img6 from "../assets/img/img6.jpg";
 import img16 from "../assets/img/img16.jpg";
-import img17 from "../assets/img/img17.jpg";
+import img17 from "../assets/img/img17.jpg"; */
 
 export default function Activity() {
   return (
@@ -41,7 +41,7 @@ export default function Activity() {
               <li className="activity-date">Today, Sep 13, 2023</li>
               <li className="activity-item comment">
                 <p className="d-sm-flex align-items-center mb-2">
-                  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img1} alt="" /></Link>
+                 {/*  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img1} alt="" /></Link> */}
                   <span className="fs-sm"><strong>You</strong> mentioned <strong>Mellisa Ricks</strong> in a comment.</span>
                   <span className="text-secondary fs-xs ms-auto">06:55pm</span>
                 </p>
@@ -53,15 +53,15 @@ export default function Activity() {
               </li>
               <li className="activity-item post">
                 <p className="d-sm-flex align-items-center mb-2">
-                  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img6} alt="" /></Link>
+               {/*    <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img6} alt="" /></Link> */}
                   <span className="fs-sm"><strong>Rickey Carpenters</strong> shared your post <strong>#PDSG4064</strong></span>
                   <span className="fs-xs text-secondary ms-auto">11:20am</span>
                 </p>
                 <Card className="card-comment">
                   <Card.Body>
                     <Row className="g-1 mb-2">
-                      <Col xs="2"><img src={img2} className="img-fluid" alt="" /></Col>
-                      <Col xs="2"><img src={img3} className="img-fluid" alt="" /></Col>
+                   {/*    <Col xs="2"><img src={img2} className="img-fluid" alt="" /></Col>
+                      <Col xs="2"><img src={img3} className="img-fluid" alt="" /></Col> */}
                     </Row>
                     <span>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <Link to="">Read more</Link></span>
                   </Card.Body>
@@ -70,21 +70,21 @@ export default function Activity() {
               <li className="activity-date">Yesterday, Sep 12, 2023</li>
               <li className="activity-item like">
                 <p className="d-sm-flex align-items-center mb-0">
-                  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img16} alt="" /></Link>
+                 {/*  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img16} alt="" /></Link> */}
                   <span className="fs-sm"><strong>Dianne Aceron</strong> reacted on your post <strong>#PDSG4064</strong></span>
                   <span className="fs-xs text-secondary ms-auto">10:15am</span>
                 </p>
               </li>
               <li className="activity-item like">
                 <p className="d-sm-flex align-items-center mb-0">
-                  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img17} alt="" /></Link>
+                {/*   <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img17} alt="" /></Link> */}
                   <span className="fs-sm"><strong>Rolando Paloso</strong> reacted on your post <strong>#PDSG4064</strong></span>
                   <span className="fs-xs text-secondary ms-auto">09:19am</span>
                 </p>
               </li>
               <li className="activity-item comment">
                 <p className="d-sm-flex align-items-center mb-2">
-                  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img16} alt="" /></Link>
+                 {/*  <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img16} alt="" /></Link> */}
                   <span className="fs-sm"><strong>Socrates Itumay</strong> commented on your post <strong>#PST02522</strong></span>
                   <span className="text-secondary fs-xs ms-auto">09:08am</span>
                 </p>
@@ -104,14 +104,14 @@ export default function Activity() {
             <ul className="activity-group mb-5">
               <li className="activity-date">Aug 30, 2023</li>
               <li className="activity-item search">
-                <p className="d-sm-flex align-items-center mb-0">
+                {/* <p className="d-sm-flex align-items-center mb-0">
                   <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img1} alt="" /></Link>
                   <span className="fs-sm"><strong>You</strong> searched using a keyword <strong>"restaurant"</strong></span>
                   <span className="fs-xs text-secondary ms-auto">10:00am</span>
-                </p>
+                </p> */}
               </li>
               <li className="activity-date">Aug 28, 2023</li>
-              <li className="activity-item search">
+            {/*   <li className="activity-item search">
                 <p className="d-sm-flex align-items-center mb-0">
                   <Link to="" className="avatar avatar-xs me-2 d-none d-sm-inline"><img src={img1} alt="" /></Link>
                   <span className="fs-sm"><strong>You</strong> searched using a keyword <strong>"software engineer"</strong></span>
@@ -124,7 +124,7 @@ export default function Activity() {
                   <span className="fs-sm"><strong>You</strong> searched using a keyword <strong>"ui developer"</strong></span>
                   <span className="fs-xs text-secondary ms-auto">02:15pm</span>
                 </p>
-              </li>
+              </li> */}
             </ul>
 
           </Col>
