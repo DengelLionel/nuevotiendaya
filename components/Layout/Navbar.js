@@ -68,11 +68,11 @@ export default function Navbar() {
 												team
 												</Link>
 											</li> */}
-											<li>
+											{/* <li>
 												<Link href="/proyectos">
 													portfolio
 												</Link>
-											</li>
+											</li> */}
 										
 											
 									

@@ -34,7 +34,7 @@ export default function MenuItems({ items, isOpenMenu,Click }) {
 					<Dropdown submenus={items.submenu} isDropdownOpen={isDropdownOpen} />
 				</>
 			) : (
-				<Link onClick={Click} href={`${items.path !== "/" ? "/" + items.path : items.path}`}>
+				<Link onClick={Click} href={`${items.path}`}>
 					{items.title}
 				</Link>
 			)}

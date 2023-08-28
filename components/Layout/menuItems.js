@@ -1,31 +1,31 @@
 export const menuItems = [
 
 	{
-		title: "Sobre nosotros",
-		path: "about",
+		title: "Conocenos",
+		path: "/conocenos",
 	},
 	{
-		title: "Services",
-		path: "services",
+		title: "Servicios",
+		path: "/servicios",
 	},
 	
 			{
 				title: "Faq",
-				path: "faq",
+				path: "/faq",
 			},
-			{
+			/* {
 				title: "Portfolio",
-				path: "projects",
-			},
+				path: "/projects",
+			}, */
 		
 			
 	
 	{
 		title: "Blog",
-		path: "https://blog-y-mas.creatiendaya.com/",
+		path: "https://blog-y-mas.creatiendaya.com",
 	},
 	{
 		title: "Contactanos",
-		path: "contact",
+		path: "/contactanos",
 	},
 ];
