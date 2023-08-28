@@ -28,7 +28,7 @@ export default function ContentTwo() {
 						</div>
 					</div>
 					<div className="col-xl-5 offset-xl-1 order-1 order-xl-2">
-						<img src="https://res.cloudinary.com/darps1cta/image/upload/v1693024122/creatiendaya/nuestro-objetivo_bzs0r7.jpg" alt="nuestro objetivo" />
+						<img src="https://res.cloudinary.com/darps1cta/image/upload/v1693247086/creatiendaya/nuestro-objetivos_asqh5f.jpg" alt="nuestro objetivo" />
 					</div>
 				</div>
 			</div>
