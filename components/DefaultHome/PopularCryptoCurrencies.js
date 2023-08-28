@@ -10,7 +10,7 @@ export default function PopularCryptoCurrencies() {
 				<div className="col-lg-8 col-xl-6 offset-xl-3 col-12 offset-lg-2 text-center">
 					<div className="block-contents text-white">
 						<div className="section-title wow fadeInUp" data-wow-duration="1s">
-							<h2>Nuestros servicios</h2>
+							<h2>Nuestros servicios Emprendedor</h2>
 						</div>
 					</div>
 				</div>
@@ -42,7 +42,10 @@ export default function PopularCryptoCurrencies() {
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 							
 								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+									<Link href="https://wa.link/aihr3u">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/desarrollo-de-tiendas-en-linea-shopify">Ver más</Link>
 								</div>
 							</div>
 						</div>
@@ -70,7 +73,10 @@ export default function PopularCryptoCurrencies() {
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 							
 								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+									<Link href="https://wa.link/3ggxg8">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/desarrollo-de-tiendas-online-woocommerce">Ver más</Link>
 								</div>
 							</div>
 						</div>
@@ -97,8 +103,11 @@ export default function PopularCryptoCurrencies() {
 							</div>
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 								
-								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+							<div className="currency-buy-now">
+									<Link href="https://wa.link/otfh29">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/creacion-de-paginas-web-personalizadas">Ver más</Link>
 								</div>
 							</div>
 						</div>
@@ -114,7 +123,7 @@ export default function PopularCryptoCurrencies() {
 									<BsFillFileCodeFill/>
 								</div>
 								<div className="currency-name">
-									<h6>Desarrollo web (creación paginas web) </h6>
+									<h6>Desarrollo web personalizado </h6>
 									<span>A código</span>
 								</div>
 							</div>
@@ -125,8 +134,11 @@ export default function PopularCryptoCurrencies() {
 							</div>
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 							
-								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+							<div className="currency-buy-now">
+									<Link href="https://wa.link/fibvsz">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/desarrollo-web-personalizado-creacion-paginas-web">Ver más</Link>
 								</div>
 							</div>
 						</div>
@@ -154,7 +166,10 @@ export default function PopularCryptoCurrencies() {
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 							
 								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+									<Link href="https://wa.link/u1dzjp">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/diseno-grafico-orientado-a-ecommerce">Ver más</Link>
 								</div>
 							</div>
 						</div>
@@ -181,8 +196,11 @@ export default function PopularCryptoCurrencies() {
 							</div>
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 								
-								<div className="currency-buy-now">
-									<Link href="#">Ver planes</Link>
+							<div className="currency-buy-now">
+									<Link href="https://wa.link/w5h66b">Cotizar ahora!</Link>
+								</div>
+								<div className="text-success">
+									<Link href="/servicios/estrategia-de-marketing-digital-y-seo">Ver más</Link>
 								</div>
 							</div>
 						</div>

@@ -21,7 +21,7 @@ export default function ContentBlockOne() {
 							Desarrolla una estrategia robusta en medios digitales para propulsar tu negocio a nuevas alturas.
 							</p>
 							<Link
-								href="#"
+								href="/servicios/estrategia-de-marketing-digital-y-seo"
 								className="theme-btn mt-30 wow fadeInUp"
 								data-wow-duration="1s"
 								data-wow-delay=".6s"
