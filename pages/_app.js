@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<link rel="icon" href="/crea_tienda_ya_favicon.ico" />
+				<meta name="facebook-domain-verification" content="heszw3pz5wr0lk1mncxuaa0wfquxwz" />
 			</Head>
 			<Layout>
 				<Component {...pageProps} />
