@@ -70,7 +70,12 @@ export const servicesData = [
 			  }
 		  
 		],
-		testimonios:null
+		testimonios:null,
+		  cta:{
+			pregunta:"¿Listo para comenzar tu viaje de comercio electrónico?",
+			respuesta:"¡Contáctanos hoy mismo y comienza a construir tu tienda en línea con Crea Tienda Ya!",
+			whatsapp:"https://wa.link/aihr3u"
+		  }
 	},
 	{
 		id: 2,
@@ -152,7 +157,12 @@ export const servicesData = [
 				cliente:"Matias"
 			}
 			
-		]
+		],
+		cta:{
+			pregunta:"¿Listo para llevar tu negocio al siguiente nivel en línea?",
+			respuesta:" ¡Contáctanos hoy mismo y comienza tu viaje hacia una tienda en línea de éxito!",
+			whatsapp:"https://wa.link/3ggxg8"
+		  }
 
 	},
 	{
@@ -239,7 +249,12 @@ seokeywords: "creación de páginas web personalizadas, diseño web a medida, si
 				  cliente:"Mario"
 			  }
 			  
-		  ]
+		  ],
+		  cta:{
+			pregunta:"¿Listo para dar vida a tu visión en línea?",
+			respuesta:" ¡Contáctanos hoy mismo y comienza a construir tu página web personalizada!",
+			whatsapp:"https://wa.link/otfh29"
+		  }
 	},
 	{
 		id: 4,
@@ -322,7 +337,14 @@ seokeywords: "desarrollo web personalizado, creación de páginas web, diseño w
 				  cliente:"Liliana"
 			  }
 			  
-		  ]
+		  ],
+		  
+		  cta:{
+			pregunta:"¿Listo para llevar tu visión en línea?",
+			respuesta:"¡Contáctanos hoy mismo y comienza a construir tu sitio web a medida!",
+			whatsapp:"https://wa.link/fibvsz"
+		  }
+		 
 
 	},
 	{
@@ -394,7 +416,14 @@ seokeywords: "diseño gráfico eCommerce, imágenes para tiendas en línea, dise
 			
 		  ],
 		  
-		  testimonios:null
+		  testimonios:null,
+		  
+		  cta:{
+			pregunta:"¿Listo para mejorar la apariencia de tu tienda en línea y aumentar tus ventas?",
+			respuesta:"¡Contáctanos hoy mismo y descubre cómo podemos ayudarte con el diseño gráfico orientado a ecommerce!",
+			whatsapp:"https://wa.link/u1dzjp"
+		  }
+
 
 	},
 	{
@@ -481,6 +510,12 @@ seokeywords: "estrategia de marketing digital, estrategia de SEO, aumento de tr�
 				cliente:"Jose"
 
 			}
-		  ]
+		  ],
+		  
+		  cta:{
+			pregunta:"¿Listo para llevar tu estrategia de marketing y SEO al siguiente nivel?",
+			respuesta:" ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a crecer en línea!",
+			whatsapp:"https://wa.link/w5h66b"
+		  }
 	},
 ];

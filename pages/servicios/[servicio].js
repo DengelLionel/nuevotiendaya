@@ -15,7 +15,7 @@ export default function servicesDetails() {
 		setContenidoServicio(servicesData.filter((service)=>servicio=== useToSlug(service.title)))
 	},[servicio])
 
-
+console.log("link e",contenidoServicio?.[0]?.cta.whatsapp)
 	return (
 		<>
 			<Head>
@@ -91,7 +91,7 @@ export default function servicesDetails() {
 {contenidoServicio?.[0]?.testimonios!=null&&(
 	<TestimonialTres testimonios={contenidoServicio}/>
 )}
-<Cta/>
+<Cta titulo={contenidoServicio?.[0]?.cta.pregunta} respuesta={contenidoServicio?.[0]?.cta.respuesta} link={contenidoServicio?.[0]?.cta.whatsapp?contenidoServicio?.[0]?.cta.whatsapp:""}/>
 				
 					
 					
