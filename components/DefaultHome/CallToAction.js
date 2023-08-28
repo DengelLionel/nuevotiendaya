@@ -15,20 +15,20 @@ export default function CallToAction() {
 Descubre Cómo Puede Crecer tu Negocio en Línea.
 								</p>
 								<div className="d-flex justify-content-center">
-  <Link href="#" className="app-download-btn wow fadeInUp" data-wow-delay=".6s">
+  <Link href="/contactanos" className="app-download-btn wow fadeInUp" data-wow-delay=".6s">
     <Image
       src="https://res.cloudinary.com/darps1cta/image/upload/v1693007819/creatiendaya/formulario-contacto-shopify_fevep0.png" // Ruta de la imagen en tu proyecto
       alt="Formulario contacto"
-      width={250} // Define el ancho deseado
-      height={100} // Define la altura deseada
+      width={196} // Define el ancho deseado
+      height={60} // Define la altura deseada
     />
   </Link>
-  <Link href="#" className="app-download-btn wow fadeInUp" data-wow-delay=".8s">
+  <Link href="https://wa.link/v7t6ed" target='_blank' className="app-download-btn wow fadeInUp" data-wow-delay=".8s">
     <Image
       src="https://res.cloudinary.com/darps1cta/image/upload/v1693007819/creatiendaya/contactanos-por-whatsapp-shopify_kn10ef.png" // Ruta de la imagen en tu proyecto
       alt="Contactanos al WhatsApp"
-      width={250} // Define el ancho deseado
-      height={100} // Define la altura deseada
+      width={196} // Define el ancho deseado
+      height={60} // Define la altura deseada
     />
   </Link>
 

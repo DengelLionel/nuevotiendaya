@@ -15,18 +15,13 @@ export default function Hero() {
 								</p>
 
 								<div className="d-flex justify-content-center">
-  <Link href="#" className=" mx-2 mb-2">
-    <img
-      src="https://res.cloudinary.com/darps1cta/image/upload/v1693007819/creatiendaya/contactanos-por-whatsapp-shopify_kn10ef.png"
-      alt="contactanos al WhatsApp"
-      className="w-50"
-    />
-  </Link>
+
   <Link href="/contactanos" className="mx-2 mb-2">
-    <img
+    <Image
       src="https://res.cloudinary.com/darps1cta/image/upload/v1693007819/creatiendaya/formulario-contacto-shopify_fevep0.png"
       alt="Formulario contacto"
-      className="w-50"
+     width={169}
+	 height={60}
     />
   </Link>
 

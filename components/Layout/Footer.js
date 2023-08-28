@@ -15,6 +15,7 @@ export default function Footer() {
 									
 									</Link>
 									<p>
+										Crea tienda ya E.I.R.L.  .
 									Tu solución completa para el comercio en línea. Desarrollamos tiendas virtuales a medida para tu negocio, potenciando tus ventas en el mundo digital.
 									</p>
 								</div>
