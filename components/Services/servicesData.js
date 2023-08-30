@@ -150,11 +150,13 @@ export const servicesData = [
 		testimonios:[
 			{
 				testimonio:"Crea Tienda Ya transformó completamente nuestra presencia en línea. Su equipo hizo un trabajo excepcional en la creación de nuestra tienda WooCommerce.",
-				cliente:"Sebastian"
+				cliente:"Sebastian",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371437/creatiendaya/sebastian_kmyqhr.jpg"
 			},
 			{
 				testimonio:"El soporte técnico que recibimos de Crea Tienda Ya es inigualable. Siempre están disponibles para ayudarnos.",
-				cliente:"Matias"
+				cliente:"Matias",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371423/creatiendaya/matias_t4z7a3.jpg"
 			}
 			
 		],
@@ -242,11 +244,13 @@ seokeywords: "creación de páginas web personalizadas, diseño web a medida, si
 		  testimonios:[
 			  {
 				  testimonio:"Crea Tienda Ya hizo un trabajo excepcional al diseñar nuestro sitio web. Capturaron perfectamente nuestra identidad de marca.",
-				  cliente:"Roberto"
+				  cliente:"Roberto",
+				  perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371442/creatiendaya/roberto_w09xdv.jpg"
 			  },
 			  {
 				  testimonio:"El proceso fue sin problemas y el resultado final superó nuestras expectativas. ¡Gracias por crear nuestro sitio web personalizado!",
-				  cliente:"Mario"
+				  cliente:"Mario",
+				  perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371418/creatiendaya/mario_h3ntrc.jpg"
 			  }
 			  
 		  ],
@@ -330,11 +334,13 @@ seokeywords: "desarrollo web personalizado, creación de páginas web, diseño w
 		  testimonios:[
 			  {
 				  testimonio:"Crea Tienda Ya hizo un trabajo excepcional al codificar nuestro sitio web. Fueron receptivos y entregaron exactamente lo que necesitábamos.",
-				  cliente:"Juan"
+				  cliente:"Juan",
+				  perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371396/creatiendaya/juann_b9vifc.jpg"
 			  },
 			  {
 				  testimonio:"Su atención al detalle y su enfoque en la calidad nos dejaron impresionados. ¡Recomendaríamos Crea Tienda Ya a cualquier persona!",
-				  cliente:"Liliana"
+				  cliente:"Liliana",
+				  perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371405/creatiendaya/liliana_ddf95k.jpg"
 			  }
 			  
 		  ],
@@ -503,11 +509,13 @@ seokeywords: "estrategia de marketing digital, estrategia de SEO, aumento de tr�
 		  testimonios:[  
 			{
 				testimonio:"Crea Tienda Ya ha transformado por completo nuestra presencia en línea. Sus estrategias de marketing nos han ayudado a alcanzar a más clientes y aumentar nuestras ventas.",
-				cliente:"Luis"
+				cliente:"Luis",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371411/creatiendaya/luis_rxyxms.jpg"
 			},
 			{
 				testimonio:"Estamos impresionados con los resultados que hemos logrado con Crea Tienda Ya. Sus estrategias de SEO realmente han elevado nuestra tienda en línea.",
-				cliente:"Jose"
+				cliente:"Jose",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371391/creatiendaya/jose_ueknsq.jpg"
 
 			}
 		  ],

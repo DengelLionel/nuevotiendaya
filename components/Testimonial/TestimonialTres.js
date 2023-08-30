@@ -55,7 +55,7 @@ export default function TestimonialTres({testimonios}) {
 								<div className="client-info">
 									<div
 										className="client-img bg-cover"
-										style={{ backgroundImage: "url(/img/testimonial/1.jpg" }}
+										style={{ backgroundImage: `url(${testimonio.perfil})` }}
 									></div>
 									<div className="client-name">
 										<h6>{testimonio.cliente}</h6>
