@@ -83,7 +83,7 @@ export default function Testimonial() {
 							<div className="client-info">
 								<div
 									className="client-img bg-cover"
-									style={{ backgroundImage: "url(/img/testimonial/1.jpg)" }}
+									style={{ backgroundImage: "url(/img/maria-g.jpg)" }}
 								></div>
 								<div className="client-name">
 									<h6>María G.</h6>
@@ -105,10 +105,10 @@ export default function Testimonial() {
 							<div className="client-info">
 								<div
 									className="client-img bg-cover"
-									style={{ backgroundImage: "url(/img/testimonial/1.jpg)" }}
+									style={{ backgroundImage: "url(https://res.cloudinary.com/darps1cta/image/upload/v1693368724/creatiendaya/juan_okxci8.jpg)" }}
 								></div>
 								<div className="client-name">
-									<h6>Juan M.n</h6>
+									<h6>Juan M.</h6>
 									<span>Empresario</span>
 								</div>
 							</div>
@@ -127,7 +127,7 @@ export default function Testimonial() {
 							<div className="client-info">
 								<div
 									className="client-img bg-cover"
-									style={{ backgroundImage: "url(/img/testimonial/1.jpg)" }}
+									style={{ backgroundImage: "url(https://res.cloudinary.com/darps1cta/image/upload/v1693368845/creatiendaya/jhon_d631ye.jpg)" }}
 								></div>
 								<div className="client-name">
 									<h6>Jhon R.</h6>
@@ -149,7 +149,7 @@ export default function Testimonial() {
 							<div className="client-info">
 								<div
 									className="client-img bg-cover"
-									style={{ backgroundImage: "url(/img/testimonial/1.jpg)" }}
+									style={{ backgroundImage: "url(https://res.cloudinary.com/darps1cta/image/upload/v1693368739/creatiendaya/eduard_s78it4.jpg)" }}
 								></div>
 								<div className="client-name">
 									<h6>Eduard Dias</h6>
