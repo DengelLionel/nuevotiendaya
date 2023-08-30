@@ -54,7 +54,7 @@ export default function Testimonial() {
 								<div className="client-info">
 									<div
 										className="client-img bg-cover"
-										style={{ backgroundImage: "url(https://res.cloudinary.com/darps1cta/image/upload/v1693367474/creatiendaya/Maria_g_empresaria_1_swa8wo.jpg" }}
+										style={{ backgroundImage: "url(/img/maria-g.jpg" }}
 									></div>
 									<div className="client-name">
 										<h6>María G.</h6>

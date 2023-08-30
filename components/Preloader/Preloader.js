@@ -19,9 +19,9 @@ export default function Preloader() {
 		showLoader && (
 			<div id="preloader" className={`preloader ${isLoded}`}>
 				<div className="animation-preloader">
-					<div className="spinner"></div>p0ññ
+					<div className="spinner"></div>
 					
-					<Image width={250} height={150} src="https://res.cloudinary.com/darps1cta/image/upload/v1693100399/LOGO_CTY_horizontal_tta5gx.png" alt="crea tienda ya - logo" />
+					<Image priority={true} width={250} height={100} src="https://res.cloudinary.com/darps1cta/image/upload/v1693100399/LOGO_CTY_horizontal_tta5gx.png" alt="crea tienda ya - logo" />
 				
 					<p className="text-center">Cargando</p>
 				</div>
