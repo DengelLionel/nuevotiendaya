@@ -1,7 +1,7 @@
 import Head from "next/head";
 /* import FeaturesTwo from "../components/Features/FeaturesTwo"; */
 import HeroTwo from "../components/Hero/HeroTwo";
-import Cta from "../components/HomeTwo/Cta";
+/* import Cta from "../components/HomeTwo/Cta"; */
 import Interfaces from "../components/HomeTwo/Interfaces";
 import ManageData from "../components/HomeTwo/ManageData";
 import OurGoal from "../components/HomeTwo/OurGoal";
@@ -23,7 +23,7 @@ export default function indexTwo() {
 			<ManageData />
 			<PricingContent />
 			<Testimonial />
-			<Cta />
+		{/* 	<Cta /> */}
 		</>
 	);
 }
