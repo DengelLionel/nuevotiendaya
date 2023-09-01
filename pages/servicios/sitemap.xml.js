@@ -1,27 +1,11 @@
-import { servicesData } from "../components/Services/servicesData"
+import { servicesData } from "../../components/Services/servicesData"
 
 function generateSiteMap(data) {
     return `<?xml version="1.0" encoding="UTF-8"?>
               <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-                <url>
-                  <loc>https://creatiendaya.com</loc>
-                  <lastmod>2023-09-01</lastmod>
-                </url>
-                <url>
-                <loc>https://creatiendaya.com/conocenos</loc>
-              </url>
               <url>
               <loc>https://creatiendaya.com/servicios</loc>
             </url>
-            <url>
-            <loc>https://creatiendaya.com/faq</loc>
-          </url>
-          <url>
-          <loc>https://blog-y-mas.creatiendaya.com</loc>
-        </url>
-        <url>
-        <loc>https://creatiendaya.com/contactanos</loc>
-      </url>
       
                 ${data?.map(servicio => {
                     return `<url>
