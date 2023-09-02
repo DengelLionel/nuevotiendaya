@@ -9,14 +9,44 @@ import "../styles/icons.css";
 import "../styles/scss/style.scss";
 import Router from "next/router";
 import withFBQ from "next-fbq";
+import Script from "next/script"
+import { useRouter } from "next/router"
+import { useEffect } from "react"
+import * as gtag from "../lib/gtag"
 function MyApp({ Component, pageProps }) {
-	
+	const router = useRouter()
+	useEffect(() => {
+	  const handleRouteChange = url => {
+		gtag.pageview(url)
+	  }
+	  router.events.on("routeChangeComplete", handleRouteChange)
+	  return () => {
+		router.events.off("routeChangeComplete", handleRouteChange)
+	  }
+	}, [router.events])
 	return (
 		<>
 			<Head>
 				<link rel="icon" href="/crea_tienda_ya_favicon.ico" />
 				<meta name="facebook-domain-verification" content="esfie7810pj6f3jpp8wjwmtzzludkc" />
-			
+				<Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gtag.GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }}
+      />
 			
 
 			</Head>
