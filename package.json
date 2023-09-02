@@ -72,6 +72,7 @@
 		"react-tabs": "^5.1.0",
 		"react-xmasonry": "^3.0.5",
 		"slick-carousel": "^1.8.1",
+		"tiktok-pixel": "^2.0.3",
 		"web-vitals": "^2.1.4"
 	},
 	"devDependencies": {
