@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PageBanner({ title, content }) {
 	return (
-		<div className="page-banner-wrap bg-cover text-capitalize">
+		<div className="page-banner-wrap bg-cover">
 			<div className="container">
 				<div className="row">
 					<div className="col-12 col-xl-6 ps-xl-0 pe-xl-0 offset-xl-3 col-lg-8 offset-lg-2 text-center text-white">
