@@ -13,7 +13,7 @@ export default function BlogContent() {
 				</div>
 
 				<div className="row">
-					{blogData.slice(0, 3).map((blog) => (
+					{blogData.slice(0, 4).map((blog) => (
 						<div key={blog.id} className="col-md-6 col-xl-4 col-12">
 							<SingleBlogPost post={blog} />
 						</div>
