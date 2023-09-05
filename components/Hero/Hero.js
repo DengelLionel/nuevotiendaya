@@ -9,9 +9,9 @@ export default function Hero() {
 					<div className="row">
 						<div className="col-xl-7 col-12 col-lg-10 offset-lg-1 offset-xl-0">
 							<div className="hero-contents">
-								<h1>Impulsa tu Negocio con Nuestra Experiencia en Tiendas Online: </h1>
+								<h1>Potencia tu negocio con nuestra experiencia en tiendas online</h1>
 								<p>
-								Woocommerce, Shopify y Más. En 'Crea Tienda Ya', somos tus aliados para llevar tu negocio al mundo digital. Nuestro equipo de expertos te guiará a través de la creación de tu tienda online, ya sea en Woocommerce, Shopify o con un enfoque de código personalizado. Da vida a tu visión en minutos y experimenta un crecimiento acelerado con nuestras soluciones personalizadas.
+								Nuestro equipo de expertos te guiará a través de la creación de tu tienda online
 								</p>
 
 								<div className="d-flex justify-content-center">
