@@ -15,7 +15,7 @@ export default function Navbar() {
 						<div className="logo">
 							<Link href="/">
 							
-									<img width={280} src="https://res.cloudinary.com/darps1cta/image/upload/v1693100399/LOGO_CTY_blanco_horizontal_idlbrf.png" alt="Crea tienda ya - Logo" />
+									<img width={280} src="https://res.cloudinary.com/darps1cta/image/upload/v1693100399/LOGO_CTY_blanco_horizontal_idlbrf.png" alt="Ayudamos a crear tu tienda online en Crea tienda ya " />
 							
 							</Link>
 						</div>
