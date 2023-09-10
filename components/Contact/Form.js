@@ -56,6 +56,7 @@ export default function Form() {
             setTelefono('')
         } catch (error) {
             setErrorserv(error)
+            console.error(error)
         } finally {
             setEnviando(false)
         } 
