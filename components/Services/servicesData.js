@@ -1,7 +1,8 @@
 import { useToSlug } from "../../context/useConvierteLink";
 import { FaShopify, FaGoogle} from "react-icons/fa";
 import {MdWeb, MdDesignServices} from 'react-icons/md'
-import {BsFillFileCodeFill} from 'react-icons/bs'
+import {BsFillFileCodeFill, BsShop} from 'react-icons/bs'
+
 import { SiWoocommerce } from "react-icons/si";
 export const servicesData = [
 	{
@@ -524,6 +525,108 @@ seokeywords: "estrategia de marketing digital, estrategia de SEO, aumento de tr�
 			pregunta:"¿Listo para llevar tu estrategia de marketing y SEO al siguiente nivel?",
 			respuesta:" ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a crecer en línea!",
 			whatsapp:"https://wa.link/w5h66b"
+		  }
+	},
+	{
+		id: 7,
+		title: "Ayudamos a desarrollar tienda online para dropshipping",
+		link:useToSlug("Ayudamos a desarrollar tienda online para dropshipping"),
+		seotitle: "Ayudamos a desarrollar tienda online para dropshipping - Perú|Colombia|Ecuador|Chile ",
+seodescription: "Expertos en desarrollo de tiendas online para dropshipping en Perú, Colombia, Ecuador, Chile y toda latinoamerica. Maximiza tus oportunidades de comercio electrónico con nuestra ayuda especializada.",
+seokeywords: "Desarrollo de tiendas en línea, Dropshipping en Perú, Dropshipping en Colombia, Dropshipping en Ecuador,Dropshipping en Chile,Comercio electrónico en América Latina,Soluciones de comercio electrónico",
+
+		content: "Soluciones de E-commerce para Dropshipping en América Latina",
+		icon: BsShop,
+		descripcion:"Potenciamos tu presencia en el comercio electrónico. Creamos tiendas en línea personalizadas y efectivas para tu negocio de dropshipping en Perú, Colombia, Ecuador, Chile y toda latinoamerica. ¡Convierte tu visión en realidad con nuestra experiencia en e-commerce | dropshipping !",
+		imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1694312493/creatiendaya/Ayudamos-a-desarrollar-tienda-online-para-dropshipping_dcxa0u.png",
+		loQueOfrecemos: [
+			{
+				title:"Diseño y Desarrollo Personalizado",
+				descripcion:"Creación de tiendas en línea a medida, adaptadas a las necesidades específicas de cada cliente, con un diseño atractivo y funcional."
+			  },
+			  {
+				title:"Integración de Plataformas de Dropshipping",
+				descripcion:"Configuración y sincronización de plataformas de dropshipping confiables para asegurar un flujo de productos eficiente."
+			  },
+			  {
+				title:"Optimización SEO",
+				descripcion:"Optimización de la tienda en línea para motores de búsqueda para aumentar la visibilidad y el tráfico orgánico."
+			  },
+			  {
+				title:"Selección de Nicho y Productos",
+				descripcion:"Asesoramiento en la elección de un nicho de mercado rentable y la selección de productos de alta calidad."
+			  },
+			  {
+				title:" Capacitación y Soporte",
+				descripcion:" Formación y asistencia para que los clientes puedan administrar su tienda en línea de manera efectiva."
+			  },
+			  {
+				title:"Personalización y Branding",
+				descripcion:"Personalización de la tienda con la marca del cliente, incluyendo logotipos, colores y elementos visuales."
+			  },
+			  {
+				title:"Integración de Pasarelas de Pago",
+				descripcion:"Configuración de pasarelas de pago seguras para facilitar las transacciones."
+			  }
+			  
+		],
+		precios: "Los precios varían según la complejidad y el alcance del desarrollo de la tienda online. Contáctanos para obtener una cotización personalizada.",
+		procesoDeTrabajo: [
+			{
+				title:"Consulta Inicial",
+				descripcion:"Inicia con una reunión o consulta con el cliente para comprender sus objetivos, necesidades y visión para la tienda en línea."
+			  },
+			  {
+				title:" Investigación de Mercado",
+				descripcion:"Realiza un análisis de mercado para identificar nichos potenciales y oportunidades en América Latina."
+			  },
+			  {
+				title:" Planificación Estratégica",
+				descripcion:"Basado en la consulta y la investigación, crea una estrategia detallada que incluya la elección del nicho, la selección de productos y la planificación del sitio web."
+			  },
+			  {
+				title:"Diseño y Desarrollo",
+				descripcion:"Diseña y desarrolla la tienda en línea, asegurándote de que tenga una apariencia atractiva y una funcionalidad óptima. Esto incluye la personalización del diseño y la integración de las herramientas de dropshipping."
+			  },
+			  {
+				title:"Capacitación del Cliente",
+				descripcion:"Proporciona capacitación al cliente sobre cómo gestionar su tienda en línea, agregar productos y administrar pedidos."
+			  }
+			
+	
+		
+		  ],
+		  porQueElegirnos: [
+			{
+				title:"Experiencia en Ecommerce",
+				descripcion:"Tenemos un historial exitoso de ayudar a los emprendedores del dropshipping a desarrollar su tienda online."
+			  },
+			  {
+				title:"Equipo de Expertos",
+				descripcion:" Nuestro equipo está formado por expertos en desarrollo de tiendas online para dropshipping."
+			  },
+			
+		
+		  ],
+		  
+		  testimonios:[  
+			{
+				testimonio:"Crea Tienda Ya ha transformado por completo nuestra presencia en línea. Sus estrategias de marketing nos han ayudado a alcanzar a más clientes y aumentar nuestras ventas.",
+				cliente:"Luis",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371411/creatiendaya/luis_rxyxms.jpg"
+			},
+			{
+				testimonio:"Estamos impresionados con los resultados que hemos logrado con Crea Tienda Ya. Sus estrategias de SEO realmente han elevado nuestra tienda en línea.",
+				cliente:"Jose",
+				perfil:"https://res.cloudinary.com/darps1cta/image/upload/v1693371391/creatiendaya/jose_ueknsq.jpg"
+
+			}
+		  ],
+		  
+		  cta:{
+			pregunta:"¿Listo para desarrollarte tu tienda online dropshipping al siguiente nivel?",
+			respuesta:" ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte en tu tienda dropshipping!",
+			whatsapp:"https://wa.link/5ohwp6"
 		  }
 	},
 ];
