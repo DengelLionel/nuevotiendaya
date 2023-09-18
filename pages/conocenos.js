@@ -19,7 +19,7 @@ export default function about() {
 			</Head>
 			<PageBanner
 				title="Conocenos para ser aliado de tu tienda online"
-				content="Somos un equipo apasionado por transformar negocios en línea. Con expertise en diseño, desarrollo y estrategias de ventas, estamos comprometidos en impulsar tu éxito en el mundo del ecommerce."
+				content="Somos un equipo apasionado por transformar negocios en línea. Con experiencia en diseño, desarrollo y estrategias de ventas, estamos comprometidos en impulsar tu éxito en el mundo del ecommerce."
 			/>
 			<ContentOne />
 			<FeaturesThree />
