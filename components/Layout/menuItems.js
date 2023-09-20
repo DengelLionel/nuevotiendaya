@@ -1,7 +1,7 @@
 export const menuItems = [
 
 	{
-		title: "Conocenos",
+		title: "Conócenos",
 		path: "/conocenos",
 	},
 	{

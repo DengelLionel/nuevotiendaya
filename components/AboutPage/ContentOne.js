@@ -11,7 +11,7 @@ export default function ContentOne() {
 				<div className="row">
 					<div className="col-xl-6 col-12">
 						<div className="video-cta">
-							<img src="/img/home2/video-banner.jpg" alt="" />
+							<img src="https://res.cloudinary.com/dh9etf988/image/upload/v1695181735/creatiendaya/datos-que-no-sabias-de-nosotros.png" alt="Datos que no sabias de nosotros" />
 							<div className="video-play-btn" onClick={() => setOpen(true)}>
 								<BsFillPlayFill />
 							</div>
@@ -20,7 +20,7 @@ export default function ContentOne() {
 								channel="youtube"
 								autoplay
 								isOpen={isOpen}
-								videoId="E1xkXZs0cAQ"
+								videoId="ChjwpfY3Puw"
 								onClose={() => setOpen(false)}
 							/>
 						</div>
