@@ -1,6 +1,22 @@
 /* ----------------------------------
    Hero Section - Styles
  ------------------------------------ */
+ .btn-verde {
+    background-color: #eb8d00; // Verde oscuro
+    color: #ffffff; // Texto blanco
+    transition: background-color 0.3s, color 0.3s; // Transición suave
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    &:hover {
+      background-color: #ffffff; // Fondo blanco al hacer hover
+      color: #32C072; // Texto verde al hacer hover
+    
+    }
+  }
+
+  
+  
 .hero-1 {
     width: 100%;
     z-index: 1;

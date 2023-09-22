@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaBars, FaTimesCircle } from "react-icons/fa";
 import MenuItems from "./Menu/MenuItems";
 import { menuItems } from "./menuItems";
-
+import Image from "next/legacy/image";
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -13,14 +13,14 @@ export default function Navbar() {
 				<div className="row align-items-center justify-content-between">
 					<div className="col-lg-2 col-sm-5 col-md-4 col-6">
 						<div className="logo">
-							<Link href="/">
+							<Link className="relativo" href="/">
 							
-									<img width={280} src="https://res.cloudinary.com/darps1cta/image/upload/v1693100399/LOGO_CTY_blanco_horizontal_idlbrf.png" alt="Ayudamos a crear tu tienda online en Crea tienda ya " />
+									<Image layout="fill" objectFit="contain" src="https://res.cloudinary.com/dh9etf988/image/upload/v1695404889/creatiendaya/LOGO_CTY_bordes_blancos_horizontal_u00ee6.png" alt="Ayudamos a crear tu tienda online en Crea tienda ya " />
 							
 							</Link>
 						</div>
 					</div>
-					<div className="col-lg-10 text-end p-lg-0 d-none d-lg-flex justify-content-between align-items-center">
+					<div className="col-lg-8 text-end p-lg-0 d-none d-lg-flex justify-content-between align-items-center ">
 						<div className="menu-wrap">
 							<div className="main-menu">
 								<ul>

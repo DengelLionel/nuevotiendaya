@@ -18,7 +18,7 @@ export default function ContentBlockOne() {
 							¿Instagram, Facebook o TikTok?
 							</p>
 							<p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-							Desarrolla una estrategia robusta en medios digitales para propulsar tu negocio a nuevas alturas.
+							Diseñamos contenido para redes sociales y estrategias.
 							</p>
 							<Link
 								href="/servicios/estrategia-de-marketing-digital-y-seo"

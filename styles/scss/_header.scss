@@ -1,3 +1,10 @@
+.relativo{
+position: relative;
+top: 0;
+width: 280px;
+height: 80px;
+}
+
 header {
 	position: absolute;
 	width: 100%;
@@ -16,7 +23,7 @@ header {
 		.logo {
 			a {
 				display: block;
-					
+				
 			}
 			
 		}

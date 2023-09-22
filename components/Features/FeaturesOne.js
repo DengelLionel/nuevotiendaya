@@ -1,7 +1,7 @@
-import { TiSocialFacebook } from "react-icons/ti";
+
 
 import { BsShop } from "react-icons/bs";
-import { FaShopify } from "react-icons/fa";
+import { FaShopify,FaLaptopCode } from "react-icons/fa";
 
 export default function FeaturesOne() {
 	return (
@@ -28,10 +28,10 @@ export default function FeaturesOne() {
 					<div className="col-lg-4 col-md-6 col-12">
 						<div className="features-card-item style-1">
 							<div className="icon icon2">
-								<TiSocialFacebook />
+								<FaLaptopCode />
 							</div>
-							<h3>Social Media Friendly</h3>
-							<p>Tu tienda lista para conectar con tus redes sociales.</p>
+							<h3>Expertos en programación web</h3>
+							<p>Tu tienda lista con tus requerimientos.</p>
 						</div>
 					</div>
 					<div className="col-lg-4 col-md-6 col-12">
