@@ -31,6 +31,10 @@ function generateSiteMap(data) {
         <loc>https://creatiendaya.com/contactanos</loc>
         <lastmod>${formattedDate}</lastmod>
       </url>
+      <url>
+        <loc>https://creatiendaya.com/solicitanos</loc>
+        <lastmod>${formattedDate}</lastmod>
+      </url>
       ${data?.map((servicio) => {
         return `<url>
           <loc>${`https://creatiendaya.com/servicios/${servicio.link}`}</loc> 
