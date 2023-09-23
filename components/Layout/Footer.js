@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram,FaTiktok   } from "react-icons/fa";
+import {servicesData} from '../Services/servicesData'
 export default function Footer() {
 	return (
 		<footer className="footer-wrapper">
@@ -53,15 +54,21 @@ export default function Footer() {
 						<div className="col-xl-2 col-lg-3 offset-xl-1 col-md-6 col-12">
 							<div className="single-footer-widget wow fadeInLeft" data-wow-delay=".4s">
 								<div className="widget-title">
-									<h5>Servicios</h5>
+								<Link href="/servicios">
+										<h5>Servicios</h5>
+										</Link>
 								</div>
 								<ul>
 								
-									<li>
-										<Link href="/servicios">
-										Nuestros servicios
+									
+									{servicesData?.map((servicio,index)=>(
+										<li key={index}>
+										<Link href={`/servicios/${servicio.link}`}>
+										{servicio.title}
 										</Link>
 									</li>
+									))}
+									
 									{/* <li>
 										<Link href="#">
 										Locker security
@@ -128,6 +135,11 @@ export default function Footer() {
 							<Link href="https://www.instagram.com/creatiendaya">
 							
 									<FaInstagram />
+							
+							</Link>
+							<Link href="https://www.tiktok.com/@creatiendaya">
+							
+									<FaTiktok />
 							
 							</Link>
 						{/* 	<Link href="#">
