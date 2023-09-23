@@ -4,6 +4,7 @@ import { FaBars, FaTimesCircle } from "react-icons/fa";
 import MenuItems from "./Menu/MenuItems";
 import { menuItems } from "./menuItems";
 import Image from "next/legacy/image";
+import { servicesData } from "../Services/servicesData";
 export default function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -54,6 +55,17 @@ export default function Navbar() {
 										<Link href="/servicios">
 											Servicios
 										</Link>
+										<ul className="sub-menu">
+											{servicesData?.map((servicio,index)=>(
+												<li key={index}>
+												<Link href={`/servicios/${servicio.link}`}>
+												{servicio.title}
+												</Link>
+											</li>
+											))}
+											
+										
+										</ul>
 									</li>
 								
 										
