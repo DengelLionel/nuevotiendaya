@@ -122,11 +122,11 @@ export default function Navbar() {
 								<nav className="sidebar-nav">
 									<ul className="metismenu" id="mobile-menu">
 										{menuItems.map((menu, index) => (
-											<MenuItems Click={()=>setIsOpen(!isOpen)} isOpenMenu={isOpen} key={index} items={menu} />
+											<MenuItems Click={()=>setIsOpen(!isOpen)} isOpenMenu={isOpen} setOpen={setIsOpen} key={index} items={menu} />
 										))}
 									</ul>
 
-									<Link className="theme-btn d-block mt-4 text-center ms-0" href="/contact">
+									<Link className="theme-btn d-block mt-4 text-center ms-0" href="/contactanos">
 									Empezar ahora!
 									</Link>
 								</nav>

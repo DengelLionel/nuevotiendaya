@@ -4,7 +4,7 @@ import Dropdown from "./Dropdown";
 
 import { IoIosArrowBack, IoIosArrowDown } from "react-icons/io";
 
-export default function MenuItems({ items, isOpenMenu,Click }) {
+export default function MenuItems({ items, isOpenMenu,Click,setOpen }) {
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
 	useEffect(() => {
@@ -31,7 +31,7 @@ export default function MenuItems({ items, isOpenMenu,Click }) {
 						</span>
 					</button>
 
-					<Dropdown submenus={items.submenu} isDropdownOpen={isDropdownOpen} />
+					<Dropdown open={isOpenMenu} setOpen={setOpen}  submenus={items.submenu} isDropdownOpen={isDropdownOpen} />
 				</>
 			) : (
 				<Link onClick={Click} href={`${items.path}`}>
