@@ -12,14 +12,14 @@ export default function about() {
 		<>
 			<Head>
 				<title>Conócenos - Crea Tienda Ya: Expertos en Crear y Potenciar Tiendas en Línea</title>
-				<meta name="description" content="Descubre quiénes somos en Crea Tienda Ya. Somos un equipo de expertos dedicados a ayudarte a crear y potenciar tu tienda en línea, sin importar el país en el que te encuentres. Conoce nuestra historia, nuestros valores y nuestra pasión por el eCommerce. Estamos aquí para hacer realidad tus sueños digitales."/>
-				<meta name="keywords" content="Conócenos, Crea Tienda Ya, crear tienda en línea, potenciar tienda online, eCommerce, equipo de expertos, shopify,woocommerce,dropshipping"/>
+				<meta name="description" content="Somos un equipo de expertos dedicados a ayudarte a crear y potenciar tu tienda virtual, sin importar el país en el que te encuentres. Conoce nuestra historia, nuestros valores y nuestra pasión por el ecommerce. Estamos aquí para hacer realidad tus espectativas."/>
+				<meta name="keywords" content="Conócenos, crea tienda ya, crear tienda virtual, potenciar tienda online, ecommerce, emprendimiento, shopify,woocommerce,dropshipping"/>
     <meta name="robots" content="index, follow"/>
 
 			</Head>
 			<PageBanner
-				title="Conócenos para ser aliado de tu tienda online"
-				content="Somos un equipo apasionado por transformar negocios en línea. Con experiencia en diseño, desarrollo y estrategias de ventas, estamos comprometidos en impulsar tu éxito en el mundo del ecommerce."
+				title="Desarrollo de tiendas online - Aliado para tu negocio"
+				content="Somos un equipo apasionado por transformar negocio online. Con experiencia en diseño, desarrollo web, estamos comprometidos en impulsar tu éxito en el mundo del ecommerce."
 			/>
 			<ContentOne />
 			<FeaturesThree />
