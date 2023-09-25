@@ -82,13 +82,13 @@ export const servicesData = [
 		id: 2,
 		title: "Desarrollo de tiendas online woocommerce",
 		link:useToSlug("Desarrollo de tiendas online woocommerce"),
-		seotitle: "Desarrollo de Tiendas en Línea WooCommerce - Crea Tienda Ya: Expertos en eCommerce",
-		seodescription: "Descubre nuestros servicios de desarrollo de tiendas en línea WooCommerce en Crea Tienda Ya. Creamos tiendas personalizadas en la plataforma WooCommerce para ayudarte a alcanzar el éxito en el eCommerce. Desde la configuración inicial hasta la integración de extensiones, estamos aquí para hacer que tu tienda en línea destaque en WooCommerce.",
-		seokeywords: "desarrollo de tiendas en línea WooCommerce, WooCommerce, tiendas personalizadas, eCommerce, configuración WooCommerce, integración de extensiones,integración de facturas electronicas, plugins",
+		seotitle: "Desarrollo de Tiendas online WooCommerce - Crea Tienda Ya",
+		seodescription: "Descubre nuestros servicios de desarrollo de tiendas online WooCommerce en Crea Tienda Ya. Creamos tiendas personalizadas en la plataforma WooCommerce para ayudarte a alcanzar el éxito de tu emprendimiento. Desde la configuración inicial hasta la integración de extensiones.",
+		seokeywords: "desarrollo de tiendas online WooCommerce, Woocommerce, tiendas personalizadas,creación de tiendas online woocommerce,mejorar woocommerce, integración de extensiones,tienda virtual woocommerce, crea tienda online",
 		
 		content: "Te ayudamos a crear tu tienda online sin necesidad de pagar mensualidad.",
 		icon: SiWoocommerce,
-		descripcion: "Nuestro servicio de Desarrollo de Tiendas en Línea WooCommerce es la solución perfecta para llevar tu negocio al mundo digital con una tienda en línea poderosa y atractiva. En Crea Tienda Ya, estamos comprometidos a convertir tus ideas en una realidad digital, brindándote una plataforma de comercio electrónico flexible y personalizada.",
+		descripcion: "Nuestro servicio de Desarrollo de Tiendas online WooCommerce es la solución perfecta para llevar tu negocio al mundo digital con una tienda virtual poderosa y atractiva. En Crea Tienda Ya, estamos comprometidos a convertir tus ideas en una realidad digital, brindándote una plataforma de comercio electrónico flexible y personalizada.",
 		imagen:"https://res.cloudinary.com/darps1cta/image/upload/v1692927814/creatiendaya/Desarrollo_de_tiendas_en_l%C3%ADnea_woocommerce_brqjyi.jpg",
 		loQueOfrecemos: [
 			{
@@ -531,9 +531,9 @@ seokeywords: "estrategia de marketing digital, estrategia de SEO, aumento de tr�
 		id: 7,
 		title: "Ayudamos a desarrollar tienda online para dropshipping",
 		link:useToSlug("Ayudamos a desarrollar tienda online para dropshipping"),
-		seotitle: "Ayudamos a desarrollar tienda online para dropshipping - Perú|Colombia|Ecuador|Chile ",
+		seotitle: "Ayudamos a desarrollar tienda online para dropshipping - Perú ",
 seodescription: "Expertos en desarrollo de tiendas online para dropshipping en Perú, Colombia, Ecuador, Chile y toda latinoamerica. Maximiza tus oportunidades de comercio electrónico con nuestra ayuda especializada.",
-seokeywords: "Desarrollo de tiendas en línea, Dropshipping en Perú, Dropshipping en Colombia, Dropshipping en Ecuador,Dropshipping en Chile,Comercio electrónico en América Latina,Soluciones de comercio electrónico",
+seokeywords: "Desarrollo de tiendas online, Dropshipping en Perú, Dropshipping en Colombia, Dropshipping en Ecuador,Dropshipping en Chile,Comercio electrónico en América Latina,Soluciones de comercio electrónico",
 
 		content: "Soluciones de E-commerce para Dropshipping en América Latina",
 		icon: BsShop,
