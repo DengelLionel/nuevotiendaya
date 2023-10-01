@@ -44,7 +44,7 @@ export default function FaqWithVideoModal() {
 								channel="youtube"
 								autoplay
 								isOpen={isOpen}
-								videoId="E1xkXZs0cAQ"
+								videoId="8aH_9y_63Wc"
 								onClose={() => setOpen(false)}
 							/>
 						</div>
