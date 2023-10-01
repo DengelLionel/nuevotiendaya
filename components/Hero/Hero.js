@@ -9,7 +9,7 @@ export default function Hero() {
 					<div className="row">
 						<div className="col-xl-7 col-12 col-lg-10 offset-lg-1 offset-xl-0">
 							<div className="hero-contents">
-								<h1 className="text-white">Potencia tu tienda online con nuestra experiencia en ecommerce</h1>
+								<h1 className="text-white">Mejora tu tienda online con nuestra magia en ecommerce</h1>
 								<p className="text-white">
 								Te ayudamos a desarrollar o mejorar tu tienda online. No importa si es shopify o woocommerce.
 								</p>
