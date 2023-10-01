@@ -61,13 +61,13 @@ export default function Footer() {
 								<ul>
 								
 									
-									{servicesData?.map((servicio,index)=>(
-										<li key={index}>
-										<Link href={`/servicios/${servicio.link}`}>
-										{servicio.title}
-										</Link>
-									</li>
-									))}
+								{servicesData?.slice(0, 4).map((servicio, index) => (
+    <li key={index}>
+        <Link href={`/servicios/${servicio.link}`}>
+            {servicio.title}
+        </Link>
+    </li>
+))}
 									
 									{/* <li>
 										<Link href="#">
