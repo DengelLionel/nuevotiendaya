@@ -23,6 +23,7 @@ export default function Document() {
 				<link href="/fonts/xmoze.eot" rel="stylesheet" />
 				<link href="/fonts/xmoze.woff" rel="stylesheet" />
 				<link href="/fonts/xmoze.woff2" rel="stylesheet" />
+				<meta name="google-site-verification" content="HhO1DM6B_FxP9kWM8qfpHCTUVPzpfd7vQtM7eTWROBs" />
 			
 			</Head>
 			<body>
