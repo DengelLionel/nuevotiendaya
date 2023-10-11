@@ -9,7 +9,7 @@ export default function CallToAction() {
 					<div className="row">
 						<div className="col-xxl-6 text-center text-xxl-start offset-xxl-1">
 							<div className="cta-contents">
-								<h2 className="wow fadeInUp">Potencia Tu Tienda Online Existente:</h2>
+								<h2 className="wow fadeInUp">Potencia tu tienda online existente:</h2>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
 								Mejoramos tu tienda online con un rediseño espectacular. Escribenos para más información.
 								</p>
