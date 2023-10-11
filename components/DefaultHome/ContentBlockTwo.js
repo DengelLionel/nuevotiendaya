@@ -25,7 +25,7 @@ export default function ContentBlockTwo() {
 					<div className="col-lg-6 col-xl-5 mt-5 mt-lg-0 order-2 order-lg-1">
 						<div className="block-contents">
 							<div className="section-title wow fadeInUp" data-wow-duration="1s">
-								<h2>Descubre Nuestro Proceso de Creación de Tiendas virtuales:</h2>
+								<h2>Nuestro proceso de desarrollo de tiendas:</h2>
 							</div>
 						</div>
 						<div className="step-accordion">
