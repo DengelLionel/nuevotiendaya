@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { FaShopify, FaGoogle} from "react-icons/fa";
-import {MdWeb, MdDesignServices} from 'react-icons/md'
-import {BsFillFileCodeFill} from 'react-icons/bs'
+import { FaShopify} from "react-icons/fa";
+import { MdDesignServices} from 'react-icons/md'
+
 import { SiWoocommerce } from "react-icons/si";
 export default function PopularCryptoCurrencies() {
 	return (

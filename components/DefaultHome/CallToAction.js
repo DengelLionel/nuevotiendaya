@@ -11,8 +11,7 @@ export default function CallToAction() {
 							<div className="cta-contents">
 								<h2 className="wow fadeInUp">Potencia Tu Tienda Online Existente:</h2>
 								<p className="wow fadeInUp" data-wow-delay=".3s">
-								Optimización y Mejoras a Medida para Impulsar tus Ventas.
-Descubre Cómo Puede Crecer tu Negocio en Línea.
+								Mejoramos tu tienda online con un rediseño espectacular. Escribenos para más información.
 								</p>
 								<div className="d-flex justify-content-center">
   <Link href="/contactanos" className="app-download-btn wow fadeInUp" data-wow-delay=".6s">
@@ -38,10 +37,10 @@ Descubre Cómo Puede Crecer tu Negocio en Línea.
 						<div className="col-xxl-5 pe-xxl-5">
 							<div className="cta-mobile-app wow fadeInUp " data-wow-delay=".4s" data-wow-duration="1.2">
 								<div className='d-block d-lg-none'>
-								<Image width={300} height={300}  src="https://res.cloudinary.com/darps1cta/image/upload/v1693014550/creatiendaya/cta-right-img_dbkme9.png" alt="Potencia tu tienda online" />
+								<Image width={300} height={300}  src="https://res.cloudinary.com/darps1cta/image/upload/v1693014550/creatiendaya/cta-right-img_dbkme9.png" alt="Rediseñamos tu tienda online" />
 								</div>
 								<div className='d-none d-lg-block'>
-								<Image width={360} height={500}  src="https://res.cloudinary.com/darps1cta/image/upload/v1693014550/creatiendaya/cta-right-img_dbkme9.png" alt="Potencia tu tienda online" />
+								<Image width={360} height={400}  src="https://res.cloudinary.com/darps1cta/image/upload/v1693014550/creatiendaya/cta-right-img_dbkme9.png" alt="Rediseñamos tu tienda online" />
 								</div>
 								
 							</div>
