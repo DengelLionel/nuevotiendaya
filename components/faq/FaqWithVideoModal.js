@@ -31,7 +31,7 @@ export default function FaqWithVideoModal() {
 					<div className="col-xl-6 pe-xl-5 col-12">
 						<div
 							className="faq-video-wrapper me-xl-4 d-flex justify-content-center align-items-center bg-cover bg-center"
-							style={{ backgroundImage: "url(img/faq-video-bg.jpg)" }}
+							style={{ backgroundImage: "url(https://res.cloudinary.com/dh9etf988/image/upload/v1697059311/creatiendaya/faqss_ggvif0.png)" }}
 						>
 							<div className="video-play-btn" onClick={() => setOpen(true)}>
 								<BsFillPlayFill />

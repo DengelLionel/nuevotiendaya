@@ -20,7 +20,7 @@ export default function Home() {
 			</Head>
 			<Hero/>
 			<FeaturesOne />
-			<ContentBlockOne />
+		
 			<PopularCryptoCurrencies />
 			<ContentBlockTwo />
 			<Testimonial />
