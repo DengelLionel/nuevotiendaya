@@ -1,13 +1,13 @@
 import Head from "next/head";
 import BlogContent from "../components/DefaultHome/BlogContent";
 import CallToAction from "../components/DefaultHome/CallToAction";
-import ContentBlockOne from "../components/DefaultHome/ContentBlockOne";
 import ContentBlockTwo from "../components/DefaultHome/ContentBlockTwo";
-import Hero from "../components/Hero/Hero";
+import Banner from "../components/Hero/Banner";
 import PopularCryptoCurrencies from "../components/DefaultHome/PopularCryptoCurrencies";
 import FaqWithVideoModal from "../components/faq/FaqWithVideoModal";
 import FeaturesOne from "../components/Features/FeaturesOne";
 import Testimonial from "../components/Testimonial/Testimonial";
+import SliderService from "../components/Hero/SliderService";
 
 export default function Home() {
 	return (
@@ -18,9 +18,10 @@ export default function Home() {
 <meta name="keywords" content="crear tienda online, tienda virtual, tiendas virtuales Perú, tiendas virtuales gratis, tienda en línea, ecommerce, creación de tiendas, negocio en línea, dropshipping, emprendimiento,emprendedor,tienda virtual ecuador,tienda virtual colombia, tienda virtual chile, tienda virtual mexico" />
 <meta name="robots" content="index, follow" />
 			</Head>
-			<Hero/>
+			<SliderService/>
+			<Banner/>
 			<FeaturesOne />
-		
+			
 			<PopularCryptoCurrencies />
 			<ContentBlockTwo />
 			<Testimonial />

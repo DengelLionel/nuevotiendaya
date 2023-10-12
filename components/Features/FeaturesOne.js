@@ -10,7 +10,7 @@ export default function FeaturesOne() {
 				<div className="col-xl-8 offset-xl-2 text-center">
 					<div className="block-contents">
 						<div className="section-title">
-							<h2>¿Por qué escoger "Crea tienda ya"?</h2>
+							<h2>¿Por qué elegir a "Crea tienda ya"?</h2>
 						</div>
 					</div>
 				</div>
@@ -40,7 +40,7 @@ export default function FeaturesOne() {
 								<BsShop />
 							</div>
 							<h3>Tienda a tu medida</h3>
-							<p>Nos adaptamos a lo que necesitas, no al revés.</p>
+							<p>Diseñomos tu tienda según tu nicho</p>
 						</div>
 					</div>
 				</div>
