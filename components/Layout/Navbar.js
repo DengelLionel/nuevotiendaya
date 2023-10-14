@@ -16,7 +16,7 @@ export default function Navbar() {
 						<div className="logo">
 							<Link className="relativo" href="/">
 							
-									<Image layout="fill" objectFit="contain" src="https://res.cloudinary.com/dh9etf988/image/upload/v1695404889/creatiendaya/LOGO_CTY_bordes_blancos_horizontal_u00ee6.png" alt="Ayudamos a crear tu tienda online en Crea tienda ya " />
+									<Image layout="fill" objectFit="contain" src="https://res.cloudinary.com/dh9etf988/image/upload/v1695404889/creatiendaya/LOGO_CTY_bordes_blancos_horizontal_u00ee6.png" alt="Ayudamos a crear tu tienda online en shopify o woocommerce " />
 							
 							</Link>
 						</div>

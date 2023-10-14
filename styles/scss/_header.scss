@@ -81,7 +81,7 @@ header {
 							opacity: 1;
 							visibility: visible;
 							transform: translateY(0);
-
+						
 							li:hover {
 								a {
 									color: $white;
@@ -99,8 +99,9 @@ header {
 					> ul {
 						position: absolute;
 						top: 100%;
-						width: 200px;
-						background-color: #ffd44b;
+						
+						background-color: #77b94d;
+						width: 500px;
 						left: 0;
 						z-index: 999;
 						box-shadow: 0 13px 35px -12px rgba(35, 35, 35, 0.15);
@@ -155,15 +156,17 @@ header {
 								opacity: 1;
 								visibility: visible;
 								transform: translateY(0);
-
+							
 								li:hover {
 									a {
 										color: $theme-color;
+										
 									}
 
 									ul {
 										a:hover {
 											color: #fff;
+										
 										}
 									}
 								}
@@ -172,12 +175,14 @@ header {
 
 						> ul {
 							background-color: #ffd44b;
-
+							
 							li {
 								a {
-									color: $second-color;
+									color: #a8ddad;
+								
 									&:hover {
 										color: $theme-color;
+									
 									}
 								}
 							}
@@ -308,9 +313,10 @@ header {
 
 	a {
 		font-weight: 500;
-
+		
 		&:hover {
 			color: #ffd44b !important;
+			
 		}
 	}
 
@@ -372,8 +378,10 @@ header {
 		.sub-menu {
 			opacity: 0;
 			transition: all 0.5s ease-in-out;
+		
 			&.show {
 				opacity: 1;
+				
 			}
 		}
 	}
