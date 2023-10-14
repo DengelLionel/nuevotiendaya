@@ -4,7 +4,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 const SliderService = () => {
     const images = [
-        "https://res.cloudinary.com/dh9etf988/image/upload/v1697176533/creatiendaya/tu-tienda-online-shopify-diseno-personalizado-diferente-autentico_zknhwc.png",
+        "https://res.cloudinary.com/dh9etf988/image/upload/v1697246592/creatiendaya/dise%C3%B1amos_y_creamos_tu_tienda_online_shopify_ex5hrc.png",
         "https://res.cloudinary.com/dh9etf988/image/upload/v1697176546/creatiendaya/tienda_ii_bpqzom.png",
       
     ];
