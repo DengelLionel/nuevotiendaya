@@ -16,7 +16,9 @@ import * as gtag from "../lib/gtag"
 import TiktokPixel from 'tiktok-pixel';
 function MyApp({ Component, pageProps }) {
 	const router = useRouter()
-	TiktokPixel.init ( 'CJP96PJC77U1G7J3MO8G' );
+	TiktokPixel.init ( 'CJP96PJC77U1G7J3MO8G' )
+	TiktokPixel.pageView()
+	TiktokPixel.track('ClickButton')
 
 	useEffect(() => {
 	  const handleRouteChange = url => {
