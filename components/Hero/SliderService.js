@@ -7,7 +7,7 @@ const SliderService = () => {
        {mobile:"https://res.cloudinary.com/dh9etf988/image/upload/v1697256601/creatiendaya/creamos_tu_tienda_online_shopify_1_y68yj6.png",
     desktop:"https://res.cloudinary.com/dh9etf988/image/upload/v1697246592/creatiendaya/dise%C3%B1amos_y_creamos_tu_tienda_online_shopify_ex5hrc.png"} ,
     {
-        mobile: "https://res.cloudinary.com/dh9etf988/image/upload/v1697247776/creatiendaya/tienda_ii_1_msx4fv.png",
+        mobile: "https://res.cloudinary.com/dh9etf988/image/upload/v1697667122/creatiendaya/tienda_ii_celular_vay3sg.png",
         desktop: "https://res.cloudinary.com/dh9etf988/image/upload/v1697247776/creatiendaya/tienda_ii_1_msx4fv.png"
     }
        
