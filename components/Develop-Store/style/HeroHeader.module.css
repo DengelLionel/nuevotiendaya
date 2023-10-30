@@ -1,0 +1,95 @@
+.main_container {
+  background-color: #00BF53;
+  margin-top: 0px !important;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.grid_container {
+  display: grid;
+  justify-items: center;
+  grid-template-areas:
+    "title"
+    "subtitle"
+    "partner"
+    "black_friday";
+}
+
+.title {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 36px;
+  color: #FBFCFE;
+  text-align: center;
+  text-transform: uppercase;
+  grid-area: title;
+}
+
+.subtitle {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #FBFCFE;
+  margin-bottom: 0;
+  margin-top: 20px;
+  grid-area: subtitle;
+}
+
+.partner_img {
+  width: 320px;
+  height: 90px;
+  grid-area: partner;
+}
+
+.black_friday_img {
+  width: 255px;
+  height: 232px;
+  grid-area: black_friday;
+}
+
+@media only screen and (min-width: 744px) {
+  .main_container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .grid_container {
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "title black_friday"
+      "subtitle black_friday"
+      "partner black_friday";
+  }
+}
+
+
+@media only screen and (min-width: 1280px) {
+  .main_container {
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+
+  .grid_container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .title { font-size: 50px; }
+  .subtitle { 
+    font-size: 22px; 
+    width: 514px;
+  }
+
+  .partner_img {
+    width: 449px;
+    height: 77px;
+  }
+
+  .black_friday_img {
+    width: 466px;
+    height: 380px;
+  }
+}

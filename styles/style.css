@@ -6,6 +6,7 @@ Author URI: https://themeforest.net/user/modinatheme/
 Description: SaaS Bootstrap HTML5 Landing Template
 Version: 1.0.0
 */
+
 * {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -4402,6 +4403,10 @@ header.header-1 .header-right-element .color-2:hover {
 	position: absolute;
 	right: 100px;
 	top: 200px;
+}
+
+.bg-green-develop-store {
+  background-color: #00BF53 !important;
 }
 
 .services-details-wrapper img {
