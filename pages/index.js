@@ -2,7 +2,6 @@ import Head from "next/head";
 import BlogContent from "../components/DefaultHome/BlogContent";
 import CallToAction from "../components/DefaultHome/CallToAction";
 import ContentBlockTwo from "../components/DefaultHome/ContentBlockTwo";
-import Banner from "../components/Hero/Banner";
 import PopularCryptoCurrencies from "../components/DefaultHome/PopularCryptoCurrencies";
 import FaqWithVideoModal from "../components/faq/FaqWithVideoModal";
 import FeaturesOne from "../components/Features/FeaturesOne";
@@ -19,7 +18,7 @@ export default function Home() {
 <meta name="robots" content="index, follow" />
 			</Head>
 			<SliderService/>
-			<Banner/>
+		
 			<FeaturesOne />
 			
 			<PopularCryptoCurrencies />

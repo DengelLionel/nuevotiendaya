@@ -20,8 +20,8 @@ export default function FeaturesOne() {
 							<div className="icon icon1">
 								<FaShopify /> 
 							</div>
-							<h3>Especialistas en Shopify y WooCommerce</h3>
-							<p>Expertos en plataformas líderes de comercio electrónico.</p>
+							<h3>Expertos en Shopify</h3>
+							<p>Experiencia comprobada en la plataforma shopify.</p>
 							
 						</div>
 					</div>
