@@ -58,26 +58,26 @@ export default function PopularCryptoCurrencies() {
 						>
 							<div className="currency-header">
 								<div className="icon icon2">
-									<SiWoocommerce className="icon-eth" />
+								<FaShopify className="icon-bitcoin" />
 								</div>
 								<div className="currency-name">
-									<h6>Desarrollo de tiendas online</h6>
-									<span>WooCommerce</span>
+									<h6>Diseño de tienda online</h6>
+									<span>Shopify</span>
 								</div>
 							</div>
 							<div className="currency-info">
 								<p>
-								Te ayudamos a crear tu tienda online sin necesidad de pagar mensualidad.
+								Te ayudamos a diseñar con un diseño auténtico tu tienda online.
 								</p>
 							</div>
 							<div className="currency-rate-buy-btn d-flex align-items-center justify-content-between">
 							
 								<div className="currency-buy-now">
-									<Link href="https://wa.link/3ggxg8">Cotizar ahora!</Link>
+								<Link href="https://wa.link/aihr3u">Cotizar ahora!</Link>
 								</div>
-								<div className="text-success">
+								{/* <div className="text-success">
 									<Link href="/servicios/desarrollo-de-tiendas-online-woocommerce">Ver más</Link>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</div>
@@ -94,8 +94,8 @@ export default function PopularCryptoCurrencies() {
 									<MdDesignServices />
 								</div>
 								<div className="currency-name">
-									<h6>Diseño gráfico</h6>
-									<span>Banners, logos, etc.</span>
+									<h6>Diseño gráfico para tu ecommerce</h6>
+									<span>Banners, logos, posts, feeds.</span>
 								</div>
 							</div>
 							<div className="currency-info">
